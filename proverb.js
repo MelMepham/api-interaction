@@ -7,13 +7,18 @@ xhr.send();
 start() {
   proverb()
 }
-
+//function to show the API
 function proverb () {
-  var pro = document.getElementById('proverb')
+  document.getElementById('proverb').innerHTML = xhr.
 
-  console.log(xhr.dataFilter[1])
+}
+// button function
+function newProverb(){
+  document.getElementById('button').addEventListener('click', cycle);
+
 }
 
-function newProverb(){
+//Function to cycle through the proverbs when the button is pressed
+function cycle() {
 
 }
