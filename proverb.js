@@ -19,6 +19,7 @@ function newProverb(){
 }
 
 //Function to cycle through the proverbs when the button is pressed
-function cycle() {
+function startFresh() {
+  
 
 }
